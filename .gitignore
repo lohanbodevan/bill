@@ -1,2 +1,6 @@
 *.sublime-workspace
 *.sublime-project
+user_guide
+user_guide/*
+system
+system/*
