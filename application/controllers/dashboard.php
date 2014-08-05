@@ -4,13 +4,13 @@
  * @description REST Controller for Account Types
  * @author Lohan Bodevan <lohan.bodevan@gmail.com>
  */
-class Account_Types extends CI_Controller {
+class Dashboard extends CI_Controller {
 
 	public function index() {
-		// $this->load->model('Account_Type',"", TRUE);
-  		// $this->Account_Type->list();
-
 		$this->load->helper('url');
-        $this->load->view('account_type/list');
+		
+		$this->load->view('header');
+        $this->load->view('dashboard');
+        $this->load->view('footer');
 	}
 }
