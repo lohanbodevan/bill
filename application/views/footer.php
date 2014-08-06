@@ -21,5 +21,14 @@
     <!-- DataTables JavaScript -->
     <script src="<?php echo base_url();?>assets/js/plugins/dataTables/jquery.dataTables.js"></script>
     <script src="<?php echo base_url();?>assets/js/plugins/dataTables/dataTables.bootstrap.js"></script>
+
+    <!-- Page-Level Demo Scripts - Tables - Use for reference -->
+    <script>
+    $(function() {
+        if ($('#dataTables-example')) {
+            $('#dataTables-example').dataTable();
+        }
+    });
+    </script>
 </body>
 </html>

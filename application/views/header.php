@@ -122,13 +122,13 @@
                             <a class="active" href="<?php echo base_url();?>"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-files-o fa-fw"></i> Tipos de Conta<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-files-o fa-fw"></i> Account Types<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="<?php echo base_url() . 'account_types/index'?>">Listar</a>
+                                    <a href="<?php echo base_url() . 'account_types/index'?>">List</a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo base_url() . 'account_types/add'?>">Adicionar</a>
+                                    <a href="<?php echo base_url() . 'account_types/add'?>">Add</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
