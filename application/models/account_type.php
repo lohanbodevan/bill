@@ -16,13 +16,12 @@ class Account_Type extends CI_Model {
 	/**
 	 * @author Lohan Bodevan <lohan.bodevan@gmail.com>
 	 * @description find on database for all account types
-	 * @return Query result
+	 * @return Query result (array of objects)
 	 */
 	public function fetch() {
 		$this->db->select($this->defaultSelect());
 		$this->db->from($this->table);
 		$query = $this->db->get();
-
         return $query->result();
 	}
 

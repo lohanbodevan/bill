@@ -7,8 +7,8 @@
 class Account_Types extends CI_Controller {
 
 	public function index() {
-		$data = new stdClass();
 		$this->load->model('Account_Type',"", TRUE);
+		$data = new stdClass();
   		$data->fetch = $this->Account_Type->fetch();
 		
 		$page = new Pages('Account Types List');
