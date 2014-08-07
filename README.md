@@ -4,7 +4,7 @@ bill
 Open source project to home's bills
 
 
-Instalation
+Installation
 ====
 
 This project use Codeigniter Framework but the "system" folder is not in the version control, you
