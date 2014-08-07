@@ -6,8 +6,10 @@
 class Pages {
 
 	public $pageTitle;
+	public $prefixPageTitle;
 
 	public function __construct($pageTitle = NULL){
 		$this->pageTitle = $pageTitle;
+		$this->prefixPageTitle = "Bill";
 	}
 }

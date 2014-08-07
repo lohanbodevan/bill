@@ -37,7 +37,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <title><?php echo $pageTitle;?></title>
+    <title><?php echo $prefixPageTitle .' - '. $pageTitle;?></title>
 </head>
 
 <body>
@@ -53,7 +53,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Bills</a>
+                <a class="navbar-brand" href="<?php echo base_url();?>">Bills</a>
             </div>
             <!-- /.navbar-header -->
 
