@@ -1,5 +1,5 @@
 <?php
-include(APPPATH.'libraries/entities/AccountType.php');
+//include(APPPATH.'libraries/entities/AccountType.php');
 
 /**
  * @description Model for Account Types table
@@ -18,7 +18,7 @@ class Account_Type extends CI_Model {
 	 * @description find on database for all account types
 	 * @return Query result
 	 */
-	public function list() {
+	public function fetch() {
 		$this->db->select($this->defaultSelect());
 		$this->db->from($this->table);
 		$query = $this->db->get();

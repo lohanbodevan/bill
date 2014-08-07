@@ -1,6 +1,6 @@
 <?php
-include(APPPATH.'libraries/entities/GenericEntity.php');
-include(APPPATH.'libraries/interfaces/Validations.php');
+// include(APPPATH.'libraries/entities/GenericEntity.php');
+// include(APPPATH.'libraries/interfaces/Validations.php');
 
 /**
  * Entity class for Account Type
